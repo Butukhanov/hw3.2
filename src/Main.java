@@ -3,7 +3,7 @@ public class Main {
         int amount = 100;
         int topUp = 10000;
         int total = amount + topUp;
-        boolean giveABonus = topUp >= 1000;
+        boolean giveABonus = topUp > 1000;
 
         int bonus;
         if (giveABonus) {
